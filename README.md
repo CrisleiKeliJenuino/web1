@@ -1,8 +1,6 @@
 # 🌐 Web1 - Introdução ao HTML e CSS
 
-Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao HTML e CSS), desenvolvidos durante o curso na  
-[ETEC Prof. Massuyuki Kawano - Tupã/SP](https://www.linkedin.com/company/etec-professor-massuyuki-kawano/posts/?feedView=all),  
-sob orientação da professora [Eveline Rodrigues](https://www.linkedin.com/in/evelinerodrigues/overlay/about-this-profile/).
+Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao HTML e CSS), desenvolvidos durante o curso na [ETEC Prof. Massuyuki Kawano - Tupã/SP](https://www.linkedin.com/company/etec-professor-massuyuki-kawano/posts/?feedView=all), sob orientação da professora [Eveline Rodrigues](https://www.linkedin.com/in/evelinerodrigues/overlay/about-this-profile/).
 
 ---
 
