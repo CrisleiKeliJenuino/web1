@@ -12,7 +12,6 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 - Iniciando o HTML e Trabalhando com Fonte   
 - HTML e CSS  - Trabalhando com Imagens  
 - HTML e CSS - Trabalhando com Margem Largura e Altura  
-- Criação de páginas simples  
 
 ---
 
@@ -25,7 +24,7 @@ Para visualizar os exercícios, basta abrir os arquivos `.html` no navegador.
 - [x] Aula 01 - Conceitos de desenvolvimento para web 
 - [x] Aula 02 - Iniciando o HTML e Trabalhando com Fonte   
 - [x] Aula 03 - HTML e CSS  - Trabalhando com Imagens   
-- [ ] Aula 04 - HTML e CSS - Trabalhando com Margem Largura e Altura   
+- [x] Aula 04 - HTML e CSS - Trabalhando com Margem Largura e Altura   
 
 ---
 
