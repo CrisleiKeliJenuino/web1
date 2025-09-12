@@ -9,7 +9,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 
 ## 📚 Conteúdo das aulas
 - Conceitos de desenvolvimento para web
-- Iniciando o HTML e Trabalhando com Fonte   
+- Iniciando o HTML e Trabalhando com Fonte
 - HTML e CSS  - Trabalhando com Imagens  
 - HTML e CSS - Trabalhando com Margem Largura e Altura  
 
@@ -22,9 +22,9 @@ Para visualizar os exercícios, basta abrir os arquivos `.html` no navegador.
 
 ## ✅ Progresso
 - [x] Aula 01 - Conceitos de desenvolvimento para web 
-- [x] Aula 02 - Iniciando o HTML e Trabalhando com Fonte   
-- [x] Aula 03 - HTML e CSS  - Trabalhando com Imagens   
-- [x] Aula 04 - HTML e CSS - Trabalhando com Margem Largura e Altura   
+- [x] Aula 02 - Iniciando o HTML e Trabalhando com Fonte
+- [x] Aula 03 - HTML e CSS  - Trabalhando com Imagens
+- [x] Aula 04 - HTML e CSS - Trabalhando com Margem Largura e Altura
 
 ---
 
