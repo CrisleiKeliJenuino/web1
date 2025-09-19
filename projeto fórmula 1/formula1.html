@@ -8,7 +8,27 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f4f4f4;
+            background-image: url(./img/fundo\ cinza.jpg);
+            background-size:cover;
+            color: rgb(255, 255, 255);
+        }
+
+        h1{
+            text-align: center;
+            text-shadow: 2px 2px red;
+        }
+
+        p{
+            text-align: justify;
+            text-shadow: 2px 2px 4px #000000;
+            text-indent: 2%;
+            size: 30px;
+            margin: 25px 50px 75px 50px;
+        }
+
+        h2{
+            text-align: center;
+            text-shadow: 2px 2px red;
         }
 
         .f1 {
@@ -19,7 +39,7 @@
         }
         
         .Senna { 
-            background-color: tomato;
+            background-color: rgb(249, 2, 2);
             color: white;
             padding: 14px 25px;
             text-align: center;
@@ -28,8 +48,8 @@
             border-radius: 12px;
         } 
         .Piquet {
-            background-color: #0000FF; 
-            color: white;
+            background-color: #fefeff; 
+            color: rgb(0, 0, 0);
             padding: 14px 25px;
             text-align: center;
             text-decoration: none;
@@ -37,7 +57,7 @@
             border-radius: 12px;
         }
         .Fittipaldi { 
-            background-color: #008000; 
+            background-color: #000000; 
             color: white;
             padding: 14px 25px;
             text-align: center;
@@ -46,7 +66,7 @@
             border-radius: 12px;
         } 
         .Massa { 
-            background-color: #ff0066; 
+            background-color: #ff0000; 
             color: white;
             padding: 14px 25px;
             text-align: center;
@@ -55,8 +75,8 @@
             border-radius: 12px;
         } 
         .Barrichello { 
-            background-color: #ff8800; 
-            color: white;
+            background-color: #ffffff; 
+            color: rgb(0, 0, 0);
             padding: 14px 25px;
             text-align: center;
             text-decoration: none;
@@ -64,13 +84,20 @@
             border-radius: 12px;
         } 
         .CarlosPace { 
-            background-color: #800080; 
+            background-color: #000000; 
             color: white;
             padding: 14px 25px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             border-radius: 12px;
+        }
+
+        .apresentacao__link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
         }
 
         h6 {
@@ -82,19 +109,21 @@
     </style>
 </head>
 <body>
-    <img src="/projeto fórmula 1/img/carrof1.jpg" alt="carro de f1" class="f1" style="width: 50%;height:auto;">
+    <img src="./img/Ferrari_F1_Las_Vegas.png" class="f1">
     <h1>Brasileiros na História da Fórmula 1</h1>
     <p>A Fórmula 1 é a categoria mais alta do automobilismo mundial e o Brasil tem uma rica história nesse esporte, 
         com vários pilotos brasileiros que deixaram sua marca na competição. Desde a década de 1950, quando o 
         primeiro piloto brasileiro, Chico Landi, participou de uma corrida de Fórmula 1, o país tem produzido 
         talentos excepcionais que conquistaram títulos e vitórias memoráveis.</p>
     <h2>Principais Pilotos Brasileiros na Fórmula 1</h2>
-    <h3 class="Senna">Ayrton Senna</h3>
+    <div class="apresentacao__link">
+    <a href="Senna.html" class="Senna" target="_blank">Ayrton Senna</a>
     <h3 class="Piquet">Nelson Piquet</h3>
     <h3 class="Fittipaldi">Emerson Fittipaldi</h3>
     <h3 class="Massa">Felipe Massa</h3>
     <h3 class="Barrichello">Rubens Barrichello</h3>
     <h3 class="CarlosPace">Carlos Pace</h3>
+    </div>
 
     <h6>@Todos os direitos reservados</h6>
 </body>
