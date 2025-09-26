@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listas Figura</title>
+    <style>
+
+        ul{
+            list-style-image:url("/imagens/setinha.gif");
+        }
+
+        .listarecuada{
+            list-style-position: inside;
+        }
+    </style>
 </head>
 <body>
-    
+    <p>Exemplo de lista modo normal</p>
+    <ul>
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Links</li>
+        <li>Contato</li>
+    </ul>
+
+    <p>Exemplo de lista para dentro</p>
+    <ul class="listarecuada">
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Links</li>
+        <li>Contato</li>
+    </ul>
 </body>
 </html>
