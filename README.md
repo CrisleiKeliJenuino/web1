@@ -14,6 +14,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 - HTML e CSS  - Trabalhando com Imagens  
 - HTML e CSS - Trabalhando com Margem Largura e Altura  
 - HTML e CSS  - Trabalhando com Links
+- HTML e CSS  - Trabalhando com Listas
 
 ---
 

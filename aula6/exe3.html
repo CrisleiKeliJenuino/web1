@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style_exe3.css">
-    <title> Menu dropdown horizontal </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu dropdown horizontal</title>
+  <link rel="stylesheet" href="estilo_exe7.css" />
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-                <li><a href="#">O que fazemos?</a></li>
-                    <ul>
-                         <li><a href="#">Web Design</a></li>
-                         <li><a href="#">SEO</a></li>
-                         <li><a href="#">Design</a></li>
-                    </ul>
-                </li>
-            <li><a href="#">Links</a></li>  
-            <li><a href="#">Contato</a></li>  
+  <nav role="navigation" aria-label="Menu principal">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li class="has-submenu">
+        <a href="#" aria-haspopup="true">O que fazemos?</a>
+        <ul class="submenu">
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">SEO</a></li>
+          <li><a href="#">Design</a></li>
         </ul>
-    </nav>
+      </li>
+      <li><a href="#">Links</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
 </body>
 </html>

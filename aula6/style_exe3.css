@@ -31,13 +31,12 @@ body{
     text-shadow: 0px 0px 5px #fff;
 }
 
-.menu ul{
-    
+.menu li ul{
     position: absolute;
     top: 25px;
     left: 0;
-    background: #fff;
-    display: none;    
+    background-color: #fff;
+    display: none;
 }
 
 .menu li:hover ul{
