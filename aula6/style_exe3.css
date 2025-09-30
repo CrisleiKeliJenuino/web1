@@ -7,14 +7,13 @@ body{
 
 .menu{
     list-style: none;
-    border: 1px solid #c0c0c0;
+    background-color: #747272;
     float: left;
 }
 
 .menu li{
     position: relative;
     float: left;
-    border-right: 1px solid #c0c0c0;
 }
 
 .menu li a{
@@ -46,7 +45,9 @@ body{
 .menu li ul li{
     border: 1px solid #c0c0c0;
     display: block;
-    width: 150px;
+    width: 109px;
+    background-color: #747272;
+    border-radius: 2px;
 }
 
 ul{
@@ -56,4 +57,5 @@ ul{
 nav{
     display: flex;
     justify-content: center;
+    background: #747272;
 }
