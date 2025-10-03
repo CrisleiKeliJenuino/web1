@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_exe2.css">
+
+    <title>Pet Shop Amicão</title>
+
+    <script lang="Javascript">
+        function insere(){
+            alert("Dados enviados com sucesso!");
+        }
+    </script>
+
+</head>
+<body>
+    <h1>PetShop Amicão</h1>
+    <form name="form1" method="post" action="#">
+        Dono: <input type="text" name="dono" id="dono" size="50" maxlength="50"><br><br>
+        Animal: <input type="text" name="animal" id="animal" size="50" maxlength="50"><br><br>
+        Endereço: <input type="text" name="endereço" id="endereço" size="100" maxlength="100"><br><br>
+        Telefone: <input type="tel" name="telefone" id="telefone" size="15" maxlength="15"><br><br>
+        Nascimento: <input type="date" name="nascimento" id="nascimento"><br><br>
+        Sexo:<input type="radio" name="sexo" value="masculino" id="masculino"><label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" value="feminino" id="feminino"><label for="feminino">Feminino</label><br><br>
+        Raça: <select name="raca" id="raca">
+            <option value="chihuahua">Chihuahua</option>
+            <option value="doberman">Doberman</option>
+            <option value="pastroalemao">Pastor Alemão</option>
+            <option value="pinscher">Pinscher</option>
+            <option value="poodle">Poodle</option>
+            <option value="shintzu">Shih Tzu</option>
+            <option value="vira-lata">Vira Lata</option>
+            <option value="outra">Outra</option>
+        </select>
+        Serviço: <select name="servico" id="servico">
+            <option value="banhoetosa">Banho e Tosa</option>
+            <option value="banho">Banho</option>
+            <option value="cirurgia">Cirurgia</option>
+            <option value="consulta">Consulta</option>
+            <option value="exame">Exame</option>
+            <option value="internacao">Internação</option>
+            <option value="tosa">Tosa</option>
+            <option value="vacina">Vacina</option>
+            <option value="outros">Outros</option>
+        </select>
+        Valor: <input type="number" name="valor" id="valor" size="10" maxlength="10" step="0.01"><br><br>
+        Data do Serviço: <input type="date" name="data_servico" id="data_servico"><br><br>
+        Observações <textarea name="obs" id="obs"></textarea><br><br>
+        <input type="submit" name="enviar" id="enviar" value="Enviar dados" onclick="insere()">
+        <input type="reset" name="limpar" id="limpar" value="Limpar dados">
+    </form>
+</body>
+</html>

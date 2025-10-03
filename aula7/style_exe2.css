@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f8e1f4, #d4f1f9);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Banner do título */
+header {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  background: #4CAF50;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+/* Imagem destaque */
+.dog-banner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dog-banner img {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+form {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  width: 450px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+input[type="submit"], input[type="reset"] {
+  background: #4CAF50;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+input[type="reset"] {
+  background: #f44336;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  background: #45a049;
+}
+
+input[type="reset"]:hover {
+  background: #e53935;
+}
+
+/* Ícones nos labels */
+.icon {
+  margin-right: 6px;
+}

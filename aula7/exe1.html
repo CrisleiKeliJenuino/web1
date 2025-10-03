@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+
+    <script lang="Javascript">
+        function insere(){
+            alert("Dados enviados com sucesso!");
+        }
+    </script>
+
 </head>
 <body>
-    <h1>Cadastro de dados pessois</h1>
-    <form name="form1" method="post" action="">
+    <h1>Cadastro de dados pessoais</h1>
+    <form name="form1" method="post" action="#">
         Nome: <input type="text" name="nome" id="nome" size="50" maxlength="50"><br><br>
         Endereço: <input type="text" name="endereço" id="endereço" size="100" maxlength="100"><br><br>
         Telefone: <input type="tel" name="telefone" id="telefone" size="15" maxlength="15"><br><br>
         E-mail: <input type="email" name="email" id="email" size="50" maxlength="50"><br><br>
-        Idade: <input type="number" name="idade" id="idade" size="3" maxlength="3"><br><br>
-        <input type="submit" value="Enviar dados">
-        <input type="reset" value="Limpar dados">
+        Data Nascimento: <input type="date" name="data_nascimento" id="data_nascimento"><br><br>
+        Sexo:<input type="radio" name="sexo" value="masculino" id="masculino"><label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" value="feminino" id="feminino"><label for="feminino">Feminino</label><br><br>
+        Como nos conheceu?<br>
+        <input type="checkbox" name="google" value="google" id="google"><label for="internet">Google</label><br>
+        <input type="checkbox" name="redes" value="redes" id="redes"><label for="redes">Redes Sociais</label><br>
+        <input type="checkbox" name="amigos" value="amigos" id="amigos"><label for="amigos">Amigos</label><br>
+        <input type="checkbox" name="outros" value="outros" id="outros"><label for="outros">Outros</label><br><br>
+        Fale sobre você <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea><br><br>
+        Senha: <input type="password" name="senha" id="senha" size="10" maxlength="8"><br><br>
+        Confirmar Senha: <input type="password" name="confirmar_senha" id="confirmar_senha" size="10" maxlength="8"><br><br>
+        Estado: <select name="estado" id="estado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="SC">SC</option>
+            <option value="PR">PR</option>
+            <option value="MA">MA</option>
+        </select>
+        <input type="submit" name="enviar" id="enviar" value="Enviar dados" onclick="insere()">
+        <input type="reset" name="limpar" id="limpar" value="Limpar dados">
     </form>
 </body>
 </html>
