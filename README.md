@@ -11,12 +11,12 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 
 - Conceitos de desenvolvimento para web
 - Iniciando o HTML e Trabalhando com Fonte
-- HTML e CSS  - Trabalhando com Imagens  
+- HTML e CSS - Trabalhando com Imagens  
 - HTML e CSS - Trabalhando com Margem Largura e Altura  
-- HTML e CSS  - Trabalhando com Links
-- HTML e CSS  - Trabalhando com Listas
+- HTML e CSS - Trabalhando com Links
+- HTML e CSS - Trabalhando com Listas
 - HTML e CSS - Trabalhando com Fomulários
-- HTML e CSS - Leiaute com GRIDs
+- HTML e CSS - Layout com GRIDs
 
 ---
 
