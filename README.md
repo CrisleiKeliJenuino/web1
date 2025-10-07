@@ -16,6 +16,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 - HTML e CSS  - Trabalhando com Links
 - HTML e CSS  - Trabalhando com Listas
 - HTML e CSS - Trabalhando com Fomulários
+- HTML e CSS - Leiaute com GRIDs
 
 ---
 
