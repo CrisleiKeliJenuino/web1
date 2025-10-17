@@ -22,7 +22,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 
 ## Introdução ao JavaScript
 
-- AULA 1_Javascript - Introdução ao JavaScript
+- AULA 1 - Javascript - Introdução ao JavaScript
 
 ---
 
