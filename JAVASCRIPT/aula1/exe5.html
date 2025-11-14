@@ -1,3 +1,4 @@
+<<<<<<< HEAD:JAVASCRIPT/aula1/exe5.html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -29,4 +30,37 @@
 
     </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem</title>
+</head>
+<body>
+    <script lang="javascript">
+        var nome = prompt('Digite o seu nome: ')
+        var qtdia = prompt('De quantos dias será a hospedagem: ')
+        var tipo = prompt('Qual será o tipo de hospedagem: ')
+        qtdia = parseInt(qtdia)
+        var total = 0.0
+
+        if(tipo.toUpperCase == 'simples'){
+            total = qtdia * 100
+            alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+            document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+        }else if (tipo == 'médio'){
+            total = qtdia * 200
+           alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+           document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+        }else{
+            total = qtdia * 300
+            alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+            document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+        }
+
+    </script>
+</body>
+>>>>>>> 4f483d4116bb72ff3b391935239fd464481ba75c:JAVASCRIPT/exe5.html
 </html>
