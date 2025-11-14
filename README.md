@@ -23,6 +23,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 ## Introdução ao JavaScript
 
 - AULA 1 - Javascript - Introdução ao JavaScript
+- AYLA 2 - Javascript - Estruturas de repetição
 
 ---
 

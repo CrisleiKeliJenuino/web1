@@ -11,17 +11,20 @@
         var qtdia = prompt('De quantos dias será a hospedagem: ')
         var tipo = prompt('Qual será o tipo de hospedagem: ')
         qtdia = parseInt(qtdia)
-        var total
+        var total = 0.0
 
-        if(tipo == 'simples'){
+        if(tipo.toUpperCase == 'simples'){
             total = qtdia * 100
             alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+            document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
         }else if (tipo == 'médio'){
             total = qtdia * 200
            alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+           document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
         }else{
             total = qtdia * 300
             alert('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
+            document.write('Olá ' + nome + ' você ficou hospedado(a), ' + qtdia + ' dias, o valor a pagar é de ' + total);
         }
 
     </script>

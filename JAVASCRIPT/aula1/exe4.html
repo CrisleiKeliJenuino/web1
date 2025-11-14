@@ -7,18 +7,21 @@
 </head>
 <body>
     <script lang="javascript">
+        // pedindo 2 notas p/ o usuário
         var n1 = prompt('Digite a 1ª nota: ')
         var n2 = prompt('Digite a 2ª nota: ')
+        //convertendo texto para decimal
         n1 = parseFloat(n1)
         n2 = parseFloat(n2)
-        M = (n1 + n2) / 2
-
+        //calculando a média
+        var M = (n1 + n2) / 2
+        //testar a situação do aluno
         if(M >= 7){
-            alert('Você foi Aprovado!');
-        }else if(5 >= 7){
-            alert('Você está de Exame!');
+            alert('Você foi aprovado, com média: '+M+' !');
+        }else if(M >= 5){
+            alert('Você está de exame, com média: '+M+' !');
         }else{
-            alert('Você foi Reprovado!');
+            alert('Você foi reprovado, com média: '+M+'!');
         }
     </script>
 </body>
