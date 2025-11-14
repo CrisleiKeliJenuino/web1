@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <script>
+        var resp
+        var nota
+        let estrela = new Array(5).fill(0);
+
+        do{
+            nota = prompt('Avalie a qualidade do hotel: \n'+
+                '(5) - para 5 estrelas \n'+
+                '(4) - para 4 estrelas \n'+
+                '(3) - para 3 estrelas \n'+
+                '(2) - para 2 estrelas \n'+
+                '(1) - para 1 estrela \n'+
+            switch(nota){
+                case 5:
+                    estrela[4]++
+                    break
+                case 4:
+                    estrela[3]++
+                    break
+                case 3:
+                    estrela[2]++
+                    break
+                case 2:
+                    estrela[1]++
+                    break
+                case 1:
+                    estrela[0]++
+                    break
+            }
+            resp = prompt('Deseja avaliar novamente? (s/n)')
+        }while(resp == 's' || resp == 'S')
+
+        for
+    </script>
+</body>
+</html>
