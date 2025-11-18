@@ -7,38 +7,46 @@
 </head>
 <body>
     <script>
-        var resp
-        var nota
+        var resp;
+        var nota;
         let estrela = new Array(5).fill(0);
 
-        do{
-            nota = prompt('Avalie a qualidade do hotel: \n'+
-                '(5) - para 5 estrelas \n'+
-                '(4) - para 4 estrelas \n'+
-                '(3) - para 3 estrelas \n'+
-                '(2) - para 2 estrelas \n'+
-                '(1) - para 1 estrela \n'+
-            switch(nota){
+        do {
+            nota = Number(prompt(
+                'Avalie a qualidade do hotel:\n' +
+                '(5) - para 5 estrelas\n' +
+                '(4) - para 4 estrelas\n' +
+                '(3) - para 3 estrelas\n' +
+                '(2) - para 2 estrelas\n' +
+                '(1) - para 1 estrela\n'
+            ));
+            
+            switch (nota) {
                 case 5:
-                    estrela[4]++
-                    break
+                    estrela[4]++;
+                    break;
                 case 4:
-                    estrela[3]++
-                    break
+                    estrela[3]++;
+                    break;
                 case 3:
-                    estrela[2]++
-                    break
+                    estrela[2]++;
+                    break;
                 case 2:
-                    estrela[1]++
-                    break
+                    estrela[1]++;
+                    break;
                 case 1:
-                    estrela[0]++
-                    break
+                    estrela[0]++;
+                    break;
+                default:
+                    alert("Nota inválida! Digite de 1 a 5.");
             }
-            resp = prompt('Deseja avaliar novamente? (s/n)')
-        }while(resp == 's' || resp == 'S')
 
-        for
+            resp = prompt('Deseja avaliar novamente? (s/n)');
+        } while (resp == 's' || resp == 'S');
+
+        for (let i = 0; i < estrela.length; i++) {
+            document.write(`Quantidade de avaliações com ${i+1} estrela(s): ${estrela[i]}<br>`);
+        }
     </script>
 </body>
 </html>
