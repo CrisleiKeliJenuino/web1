@@ -24,7 +24,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 
 - Javascript - Introdução ao JavaScript
 - Javascript - Estruturas de repetição
-- Javascript – Formulários
+- Javascript - Formulários
 
 ---
 
