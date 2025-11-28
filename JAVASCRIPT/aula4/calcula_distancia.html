@@ -4,60 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Distância</title>
-      <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-    }
-    label {
-      display: block;
-      margin-top: 10px;
-    }
-    input {
-      width: 60px;
-      padding: 5px;
-    }
-    button {
-      margin-top: 15px;
-      padding: 8px 12px;
-    }
-    #resultado {
-      margin-top: 20px;
-      font-weight: bold;
-    }
-  </style>
 </head>
 <body>
-    <h2>Calculadora de Distância</h2>
-    <form id="formDistancia">
-        <label>Distância em Quilômetros (km):
-            <input type="number" step="0.01" id="quilometros" required>
-        </label>
-        <button type="submit">Converter</button>
-    </form>
-
-    <div id="resultado"></div>
-
-    <script>
-        document.getElementById("formDistancia").addEventListener("submit", function(event) {
-            event.preventDefault(); // Evita recarregar a página
-
-            // Valor em Quilômetros
-            var quilometros = parseFloat(document.getElementById('quilometros').value);
-
-            // Conversões
-            const valorMilhas = quilometros * 0.621371;
-            const valorMetros = quilometros * 1000;
-            const valorCentimetros = quilometros * 100000;
-
-            // Exibe o resultado
-            const resultado = `
-            Valor em Quilômetros: ${quilometros.toFixed(2)} km<br>
-            Em Milhas: ${valorMilhas.toFixed(2)} mi<br>
-            Em Metros: ${valorMetros.toFixed(2)} m<br>
-            Em Centímetros: ${valorCentimetros.toFixed(2)} cm`;
-            document.getElementById('resultado').innerHTML = resultado;
-        });
-    </script>
+    
 </body>
 </html>
