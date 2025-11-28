@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+    }
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+    input {
+        width: 100px;
+        padding: 5px;
+    }
+    button {
+        margin-top: 15px;
+        padding: 8px 12px;
+    }
+    #resultado {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h2>Conversor de Moedas</h2>
+   <form id="formDinheiro">
+    <label>Quantidade em Reais (R$): 
+        <input type="number" step="0.01" id="reais" required>
+    </label>
+    <button type="submit">Converter</button>
+   </form>
+
+   <div id="resultado"></div>
+
+   <script>
+    document.getElementById("formDinheiro").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita recarregar a página
+
+        // Valor em Reais
+        var reais = parseFloat(document.getElementById('reais').value);
+
+        // Cotações fixas
+        const cotacaoDolar = 5.28;
+        const cotacaoEuro = 6.13;
+        const cotacaoLibra = 6.95;
+
+        // Converções
+        const valorDolar = reais / cotacaoDolar;
+        const valorEuro = reais / cotacaoEuro;
+        const valorLibra = reais / cotacaoLibra;
+
+        // Exibe o resultado
+        const resultado = `
+        Valor em Reais: R$ ${reais.toFixed(2)}<br>
+        Em Dólares: $ ${valorDolar.toFixed(2)}<br>
+        Em Euros: € ${valorEuro.toFixed(2)}<br>
+        Em Libras: £ ${valorLibra.toFixed(2)}`;
+        document.getElementById('resultado').innerHTML = resultado;
+    });
+   </script>
+</body>
+</html>
