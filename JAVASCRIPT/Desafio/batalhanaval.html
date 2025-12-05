@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu inteligente </title>
+<style type="text/css">
+.formato01 {
+	background-color:#F1D59E;
+	border: #F2BE84 5px solid;
+	color: #666;
+	font-family: Georgia;
+	font-size: 12px;
+	width:800px;
+	height: 600px;
+	padding: 10px 10px 6px 5px;
+	vertical-align: baseline;
+}
+</style>
+<script language="javascript">
+	
+	var f = new Array();
+	var iMax = 10;
+	var jMax = 10;
+	
+	// ******** MONTAGEM DO TABULEIRO INICIAL *********************************************
+	for (i=1; i <= iMax; i++){
+	 	f[i]=new Array();
+		for(j=1; j <= jMax; j++){
+		   f[i][j]="mira.png";			
+		}
+	}
+	
+	// ******** MONTAGEM DO TABULEIRO DE TRÁS *********************************************
+	var a = new Array();
+	var cont = 0;
+	var cont_max = 9;
+	
+	for (i=1; i <= iMax; i++){
+	 	a[i]=new Array();
+		for(j=1; j <= jMax; j++){
+		   
+		   var num = Math.round(Math.random() * (10 - 1)) + 1;
+		   if((num == i) && (cont < cont_max)){
+		   	  a[i][j]="alvo1.png";						   
+			  cont++;
+		   }
+		   else if((num == j) && (cont < cont_max)){
+			   if(i > j){
+				   a[i][j]="alvo2.png";	
+			   }
+			   else{
+				   a[i][j]="alvo3.png";	
+			   }
+			   cont++;
+		   }
+		   
+		   else{
+		   	  a[i][j]="agua.png";			
+		   }
+		}
+	}
+	
+	//****************************************************************
+	
+function imprime(){
+	var texto="";
+       		
+	document.write("<center><div id='conteudo' class='formato01' > <center><table border='1'>");
+	for (i=1; i <= iMax; i++){
+		texto += "<tr>";
+	 	
+		for(j=1; j <= jMax; j++){
+			texto += "<td><img src='"+f[i][j]+"' width='50px' height='50px' name='imagem' onClick='troca("+i+","+j+")' /></td>";
+
+			if(j == jMax){
+				texto += "</tr><br>";
+			}
+		}
+	}
+	texto += "</table></div></center>";	
+	
+	document.getElementById("conteudo").innerHTML = texto;
+}
+	
+//****** FUNÇÃO CHAMADA PARA TROCAR A IMAGEM
+	function troca(conti,contj){	
+	
+		f[conti][contj] = a[conti][contj];
+		mira = new Image();
+		mira.src = f[conti][contj];
+		
+		imprime();		
+	}
+
+</script>
+</head>
+<body onload="imprime()">
+
+</body>
+</html>

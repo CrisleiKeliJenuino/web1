@@ -26,6 +26,7 @@ Repositório com as aulas e exercícios da disciplina **Web1** (Introdução ao 
 - Javascript - Estruturas de repetição
 - Javascript - Formulários
 - Javascript - Funções
+- Javascript - Desafio - Batalha Naval
 
 ---
 
